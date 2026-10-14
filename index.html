@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mənim Saytım</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background: #2563eb;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #1e40af;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #1e40af;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mənim Saytım</h1>
+        <p>Şəxsi veb-saytıma xoş gəlmisiniz!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Ana səhifə</a>
+        <a href="#about">Haqqımda</a>
+        <a href="#contact">Əlaqə</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Xoş gəlmisən! 👋</h2>
+        <p>Bu, mənim ilk sadə veb-saytımdır.</p>
+        <button onclick="alert('Saytıma xoş gəlmisən!')">
+            Klik et
+        </button>
+    </section>
+
+    <section class="hero" id="about">
+        <h2>Haqqımda</h2>
+        <p>Burada özün haqqında məlumat yaza bilərsən.</p>
+    </section>
+
+    <section class="hero" id="contact">
+        <h2>Əlaqə</h2>
+        <p>E-poçt: example@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Mənim Saytım. Bütün hüquqlar qorunur.</p>
+    </footer>
+
+</body>
+</html>
